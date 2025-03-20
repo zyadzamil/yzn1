@@ -99,9 +99,9 @@ background:
 }
 
 
-.hex.yellow::after { background-color: #FFAE1A; }
-.hex.green::after { background-color: darkgreen; }
-.hex.orange::after { background-color: darkred; }
+.hex.yellow::after { background-color: #f8db0e; }
+.hex.green::after { background-color: #3db61b; }
+.hex.orange::after { background-color: #ff813c; }
 
 
 .hex.green span,
