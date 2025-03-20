@@ -25,18 +25,18 @@ body {
 
 background: 
         /* Red side bars */
-        linear-gradient(to right, darkred 231px, transparent 0) left / 700px 43%,
-        linear-gradient(to left, darkred 275px, transparent 0) right / 700px 43%,
+        linear-gradient(to right, #ff813c 231px, transparent 0) left / 700px 43%,
+        linear-gradient(to left, #ff813c 275px, transparent 0) right / 700px 43%,
         
         /* Green top/bottom bars */
-        linear-gradient(to bottom, darkgreen 210px, transparent 0) top / 36% 700px,
-        linear-gradient(to top, darkgreen 210px, transparent 0) bottom / 36% 700px,
+        linear-gradient(to bottom, #3db61b 210px, transparent 0) top / 36% 700px,
+        linear-gradient(to top, #3db61b 210px, transparent 0) bottom / 36% 700px,
         
         /* Diagonal corners */
-        linear-gradient(-135deg, darkgreen 50%, darkred 50%) left top / 286.5px 210px,
-        linear-gradient(135deg, darkgreen 50%, darkred 50%) right top / 286.5px 210px,
-        linear-gradient(-45deg, darkgreen 50%, darkred 50%) left bottom / 293px 250px,
-        linear-gradient(45deg, darkgreen 50%, darkred 50%) right bottom / 293px 250px;
+        linear-gradient(-135deg, #3db61b 50%, #ff813c 50%) left top / 286.5px 210px,
+        linear-gradient(135deg, #3db61b 50%, #ff813c 50%) right top / 286.5px 210px,
+        linear-gradient(-45deg, #3db61b 50%, #ff813c 50%) left bottom / 293px 250px,
+        linear-gradient(45deg, #3db61b 50%, #ff813c 50%) right bottom / 293px 250px;
        
     background-repeat: no-repeat;
     padding: 190px;
@@ -75,7 +75,7 @@ background:
     
     width: calc(100% + 5px);
     height: calc(100% + 5px);
-    background: black;
+    background: #6b3b9f;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     z-index: 1;
 }
@@ -95,7 +95,7 @@ background:
 .hex span {
     position: relative;
     z-index: 3;
-    color: black;
+    color: #6b3b9f;
 }
 
 
